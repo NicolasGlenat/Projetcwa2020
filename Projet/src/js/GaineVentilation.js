@@ -1,4 +1,4 @@
-class GaineVentilation{
+class GaineVentilation extends Machine{
 
   constructor(){
     this.enMarche=new boolean(false);
