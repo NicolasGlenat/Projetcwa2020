@@ -1,4 +1,4 @@
-class Sonde{
+class Sonde extends Machine{
 
   constructor(){
     this.temperatureDetectee=0;
