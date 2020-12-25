@@ -33,5 +33,6 @@ class Cellule {
 
   alarme(){
     this.alarme=true;
+    return this.alarme;
   }
 }
