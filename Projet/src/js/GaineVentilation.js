@@ -1,6 +1,7 @@
 class GaineVentilation extends Machine{
 
-  constructor(){
+  constructor(id){
+    super(id);
     this.enMarche=new boolean(false);
     this.defectueux=new boolean(false);
   }

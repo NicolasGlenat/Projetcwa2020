@@ -1,6 +1,7 @@
 class Sonde extends Machine{
 
-  constructor(){
+  constructor(id){
+    super(id);
     this.temperatureDetectee=0;
   }
 
