@@ -1,0 +1,30 @@
+
+<div class = "centre">
+<h5 class = "milieu">Saisir un nouvel arrivage</h5>    
+<div class="col-sm-8 col-sm-offset-2">
+    <form class = "form">
+         <div class="form-group">
+             <label for="origine">Origine</label>
+             <input type="text" [(ngModel)] = "newArrivee.origine" class="form-control" name = "origine">
+         </div>
+         <div class="form-group">
+            <label for="poids">Poids</label>
+            <input type="text" [(ngModel)] = "newArrivee.poids" class="form-control" name = "poids">
+        </div>
+        <div class="form-group">
+            <label for="cereale">Type</label>
+            <select id= "type" [(ngModel)] = "newArrivee.type" class="form-control" name = "type">
+                <option value="ble">Blé</option>
+                <option value="mais">Maïs</option>
+                <option value="riz">Riz</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="date">Date d'arrivée</label>
+            <input type="date" [(ngModel)] = "newArrivee.date" class="form-control" name = "date">
+        </div>
+        <button class="btn btn btn-success" type="submit" (click)="addArrivee()">Ajouter</button>
+    </form>
+    
+</div>
+</div>
