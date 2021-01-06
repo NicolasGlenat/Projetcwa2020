@@ -1,6 +1,12 @@
 //import { Component, OnInit } from '@angular/core';
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Cellule } from "../Partages/cellule.model";
+import { Machine } from "../Partages/Machine.model";
+import { Sonde } from "../Partages/Sonde.model";
+import { Ventilateur } from "../Partages/Ventilateur.model";
+import { GaineVentilation } from "../Partages/GaineVentilation.model";
+import { LotCereales } from "../Partages/LotCereales.model";
+import { Echantillon } from "../Partages/Echantillon.model";
 
 @Component({
   selector: 'app-silo',
@@ -25,6 +31,15 @@ export class SiloComponent implements OnInit {
 
   //servait de test pour un sélection particuliaire
   //public cellule :Cellule;
+  public sondes : Sonde[]=[
+    new Sonde(1),
+    new Sonde(2),
+    new Sonde(3),
+    new Sonde(4),
+    new Sonde(5),
+  ];
+
+
 
   constructor() { }
 
@@ -36,6 +51,15 @@ export class SiloComponent implements OnInit {
 
   recupCellule(index: number): void {
 
+  }
+
+  moyenneSondes(){
+    var res=0;
+    for(var i=0; i<this.sondes.length; i++){
+      res+=this.sondes[i].temperatureDetectee;
+    }
+    res/=this.sondes.length;
+    return res;
   }
 
 }
