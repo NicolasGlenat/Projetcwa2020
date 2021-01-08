@@ -9,16 +9,21 @@ import { ArriveeService} from '../services/arrivee.service';
 })
 export class AjouterComponent implements OnInit {
 
+<<<<<<< HEAD
   newArrivee = new Arrivee("","", "",new Date("MM/ddd/yyy"), "");
   
+=======
+  newArrivee = new Arrivee("", "", "",new Date("MM/ddd/yyy"),"");
+
+>>>>>>> 0d1b1cd969ca8423148037c4348fcc23c2939fb6
   constructor(private arriveeService : ArriveeService) { }
 
   ngOnInit(): void {
   }
   addArrivee() {
   //console.log(this.newArrivee);
-  
+
   this.arriveeService.ajouterArrivee(this.newArrivee);
-  
+
 }
 }
