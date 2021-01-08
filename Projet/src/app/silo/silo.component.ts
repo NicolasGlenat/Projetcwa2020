@@ -17,11 +17,11 @@ export class SiloComponent implements OnInit {
   public recup: EventEmitter<number> = new EventEmitter<number>();
 
   public cellules : Cellule[]= [
-<<<<<<< HEAD
+
   new Cellule(1,200,1370,"Blé","Excellente"),
-=======
+
 	new Cellule(1,200,1370,"Blé","Excellente"),
->>>>>>> 0d1b1cd969ca8423148037c4348fcc23c2939fb6
+
   new Cellule(2,200,1370,"Blé","Bonne"),
   new Cellule(3,200,1370,"Blé","Passable"),
   new Cellule(4,200,1370,"Maïs","Excellente"),
