@@ -17,16 +17,20 @@ export class SiloComponent implements OnInit {
   public recup: EventEmitter<number> = new EventEmitter<number>();
 
   public cellules : Cellule[]= [
-	new Cellule(1,200,1370),
-	new Cellule(2,205,410),
-	new Cellule(3,200,1250),
-  new Cellule(4,200,900),
-  new Cellule(5,200,1124),
-  new Cellule(6,200,1300),
-  new Cellule(7,200,430),
-  new Cellule(8,200,1370),
-  new Cellule(9,200,1370),
-  new Cellule(10,200,1370),
+	new Cellule(1,200,1370,"Blé","Excellente"),
+  new Cellule(2,200,1370,"Blé","Bonne"),
+  new Cellule(3,200,1370,"Blé","Passable"),
+  new Cellule(4,200,1370,"Maïs","Excellente"),
+  new Cellule(5,200,1370,"Maïs","Bonne"),
+  new Cellule(6,200,1370,"Maïs","Passable"),
+  new Cellule(7,200,1370,"Orge","Excellente"),
+  new Cellule(8,200,1370,"Orge","Bonne"),
+  new Cellule(9,200,1370,"Orge","Passable"),
+  new Cellule(10,200,1370,"Riz","Excellente"),
+  new Cellule(11,200,1370,"Riz","Bonne"),
+  new Cellule(12,200,1370,"Riz","Passable"),
+
+
 	];
 
   //servait de test pour un sélection particuliaire
