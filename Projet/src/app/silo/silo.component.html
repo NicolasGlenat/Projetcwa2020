@@ -11,10 +11,12 @@
   <a *ngFor="let cellule of cellules;"
   href="#" class="list-group-item list-group-item-action">
   <h6>cellule numero {{cellule.numero}}:</h6>
-  remplis a {{cellule.contenu}}/{{cellule.contenance}}<br>
+  remplis a {{cellule.contenu}}/{{cellule.contenance}} kg <br>
   soit ={{cellule.pourcentage}}%<br>
   <label for="file">cellule {{cellule.numero}}</label>
   <progress id="file" max="100" value={{cellule.pourcentage}}> 70% </progress>
+  <br>Type de céréale : {{cellule.type}}
+  <br>Qualité : {{cellule.qualite}}
 
   </a>
   </div>
