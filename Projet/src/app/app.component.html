@@ -20,7 +20,7 @@
 <!-- Links -->
 <ul class="navbar-nav">
 <li class="nav-item">
-<a class="nav-link" >Acceuil</a>
+<a class="nav-link" href = "http://localhost:4200" >Acceuil</a>
 </li>
 
 <!--
@@ -42,7 +42,7 @@ Arrivage
 </li>
 
 <li class="nav-item">
-<a class="nav-link" >Expédition</a>
+<a class="nav-link" routerLink ="/ajouter-exp">Expédition</a>
 </li>
 
 <li class="nav-item">
@@ -62,16 +62,36 @@ Arrivage
 </div> 
 
 <div class="gauche1">
-<img src="../assets/images1.jpeg" widht = "100%" height = "100%" />
+<img src="../assets/chargement.jpg" width = "100%" height = "98%"/>
 </div>
 <div class="gauche2">
+		<br/><br/>
+	    <p class="gauche">Gestion de Céréales</p>
+	    <ul>
+			<li>Remplissage silo</li>
+			<li>Chargement de grains</li>
+			<li>Expédition de grains</li>
+		</ul>
+  
 </div>
 <div class="centre">
+	<br/>
+	  <h2 class = "milieu">Gestion de céréales</h2> 
+	  
+	<div class="centre1">
+		<br/><br/>
+    <label for="recherche">Rechercher un lot de céréales</label>
+<input placeholder = "entrer l'identifiant .."type="text" id="recherche" name = "recherche">
+
+<button class="btn btn btn-success" type="submit">Rechercher</button>
+         
+	</div>
 </div>
 <div class="droite1">
-	<img src="../assets/silo-granja-symaga.jpg" widht = "10%" height = "100%" />
+	<img src="../assets/silo.jpg" width = "99%" height = "99%"/>
 </div>
 <div class="droite2">
+	<img src="../assets/image_processing20191203-32098-1cjk1ui.gif" width = "99%" height = "90%"/>
 </div>
 <div class="bas">
 </div>

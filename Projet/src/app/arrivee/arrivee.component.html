@@ -1,26 +1,21 @@
 <div class = "centre">
-	
-	
+
+
 	<div class = "card shadow mb-4">
 		<div class = "card-body">
 			<table class = "table table-stiped">
 				<thead class = "milieu">Liste d'arrivée de camions</thead>
-				 <tr> <th>Origine </th><th>Poids</th><th>Type </th><th>Date </th>
+				 <tr> <th>Origine </th><th>Poids</th><th>Type </th><th>Qualité </th><th>Date </th>
 	             </tr>
 	               <tbody  *ngFor ="let arrivee of arrivees">
 					    <tr>
 							 <td>{{arrivee.origine}} </td>
 							 <td>{{arrivee.poids}} </td>
 							 <td>{{arrivee.type}} </td>
+							 <td>{{arrivee.qualite}} </td>
 							 <td>{{arrivee.date | date : 'dd/MM/yyy'}} </td>
 						</tr>
 					</tbody>
 		</table>
 	</div>
 	</div>
-
-
-
-
-
-

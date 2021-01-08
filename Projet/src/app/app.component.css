@@ -4,10 +4,10 @@
   text-align : center;
   color : white;
   overflow: hidden;
-  position:fixed;
   bottom: 0;
   width: 100%;
-  height : 40px;
+  position : fixed;
+  height : 10px;
 
 }
 .ub {
@@ -18,7 +18,7 @@ background-color : #FDF1B8;
 position:absolute;
 top:73px;
 left:3px;
-width:25%;
+width:20%;
 height:230px;
 border:2px dashed black;
 border-radius:10px;
@@ -28,18 +28,19 @@ background-color : #FDF1B8;
 position:absolute;
 top:52%;
 left:3px;
-width:25%;
+width:20%;
 height:365px;
 border:2px dashed black;
 border-radius:10px;
+font: 1rem 'Fira Sans', sans-serif;
 }
 .centre{
 background-color : #DFF2FF;
 position:absolute;
 top: 73px;
 height:576px; 
-left:25%;
-right:20%;
+left:20.2%;
+right:20.1%;
 border:2px dashed black;
 border-radius:10px;
 }
@@ -63,3 +64,34 @@ height:365px;
 border:2px dashed black;
 border-radius:10px;
 }
+
+.centre {
+text-align : center;
+}
+.centre1{
+background-color : #DFF2FF;
+position:absolute;
+top: 73px;
+height:250px; 
+left:15%;
+right:15%;
+border:2px groove black;
+border-radius:2px;
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: 10px;
+    
+}
+.gauche {
+text-align : center;
+font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+

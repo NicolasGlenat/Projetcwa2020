@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { SiloComponent } from './silo/silo.component';
 import { ArriveeComponent } from './arrivee/arrivee.component';
 import { AjouterComponent } from './ajouter/ajouter.component';
+import { AjouterExpComponent } from './ajouter-exp/ajouter-exp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SiloComponent,
     ArriveeComponent,
-    AjouterComponent
+    AjouterComponent,
+    AjouterExpComponent
   ],
   imports: [
     BrowserModule,
