@@ -14,14 +14,14 @@ export class ArriveeService {
    { origine : "Allemagne", poids : "20000kg", type : "Riz", date : new Date ("05/25/2020"), qualite : "Excellente"}
 
    ];
-
    }
+
     listeArrivee():Arrivee[]{
-	return this.arrivees;
+	    return this.arrivees;
     }
 
     ajouterArrivee(arrivee : Arrivee) {
-    this.arrivees.push(arrivee);
+      this.arrivees.push(arrivee);
 
     }
 }
