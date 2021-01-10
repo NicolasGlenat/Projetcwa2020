@@ -1,4 +1,4 @@
-import { Machine } from "../Partages/Machine.model";
+import { Machine } from "../models/Machine.model";
 
 export class Ventilateur extends Machine{
 

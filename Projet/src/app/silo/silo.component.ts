@@ -1,12 +1,12 @@
 //import { Component, OnInit } from '@angular/core';
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Cellule } from "../Partages/cellule.model";
-import { Machine } from "../Partages/Machine.model";
-import { Sonde } from "../Partages/Sonde.model";
-import { Ventilateur } from "../Partages/Ventilateur.model";
-import { GaineVentilation } from "../Partages/GaineVentilation.model";
-import { LotCereales } from "../Partages/LotCereales.model";
-import { Echantillon } from "../Partages/Echantillon.model";
+import { Cellule } from "../models/cellule.model";
+import { Machine } from "../models/Machine.model";
+import { Sonde } from "../models/Sonde.model";
+import { Ventilateur } from "../models/Ventilateur.model";
+import { GaineVentilation } from "../models/GaineVentilation.model";
+import { LotCereales } from "../models/LotCereales.model";
+import { Echantillon } from "../models/Echantillon.model";
 
 @Component({
   selector: 'app-silo',
